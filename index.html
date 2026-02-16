@@ -36,11 +36,20 @@
     
   </section>
   <div id="about" class="container">
-    <div><h1>about</h1></div>
+    <div><h1 id="name">about</h1></div>
     <div ><a href="#top" class="top">Top</a></div>
   </div>
     
-  <script src="js/app.js"></script>
+  <script>
+    let name = prompt('Wat is je naam? ', ) || 'Guest';
+
+    console.log(name.length)
+
+    
+
+    document.getElementById('name').textContent = name ;
+
+  </script>
 
 </body>
 
