@@ -1,6 +1,5 @@
 .container {
   justify-content: center;
-  justify-content: center;
   margin-left: 20px;
   margin-right: auto;
   height: 50px;
@@ -12,22 +11,20 @@
   display: flex;
   gap: 10px;
 }
-
-#one {
-  background-color: blue;
-  color: white;
+nav {
+  max-width: 75%;
+  padding-left: 10%;
 }
 
-#two {
-  background-color: blueviolet;
-  color: #fff;
+img {
+  align-content: end;
 }
 
 p {
   width: auto;
 }
 
-.bodyText {
+section {
   margin-left: 10%;
 
 }
@@ -39,8 +36,9 @@ p {
 }
 
 a {
-  text-decoration: none;
-  color: white;
+  margin: 5px;
+  text-decoration:solid;
+  color: grey;
   padding: 5px;
 }
 
